@@ -1,0 +1,19 @@
+/*calculate average of the numbers between M and N value of M and N will be entered through keyboard*/
+#include<stdio.h>
+int main()
+{
+int M,N,i;
+float,avg,sum=0,count=0;
+printf("Enter m:");
+scanf("%d",&m);
+printf("Enter n:");
+scanf("%d,&n);
+for(i=m;i<=n;i++)
+{
+sum+=i;
+count++;
+}
+avg=sum/count;
+printf("The average of the numbers between %d and %d is:%2f,m,n,avg");
+return0;
+}
