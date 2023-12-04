@@ -1,0 +1,24 @@
+/* Function to obtain prime factors of a number */
+
+#include <stdio.h>
+int main()
+{
+ unsigned int n;
+ printf ("Enter a positive number:");
+ scanf ("%d", &n);
+ prime_fac(n);
+ return 1;
+}
+void prime_fac(unsigned int n)
+{
+ int i=2;
+ printf ("The prime factors are: ");
+ while(i<=n)
+ {
+  if(n%i==0)    
+     {printf ("%d ", i); 
+     printf ("   ");        
+     n=n/i;}
+  else 
+     i++; }       
+}
