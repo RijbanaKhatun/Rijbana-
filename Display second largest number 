@@ -1,0 +1,38 @@
+/*Enter three numbers and display the second largest number*/
+#include<stdio.h>
+int main()
+{
+int a,b,c;
+printf("Enter three number");
+scanf("%d%d%d,"&a,&b,&c);
+{
+if(b>c)
+{
+printf("%d is the second largest among all",c);
+}
+else
+{
+printf("%d is the second largest among all",c);
+}
+if(a>c)
+{
+printf("%d is the second largest among all",a);
+}
+else
+{
+printf("%d is the second largest among all",c);
+}
+}
+else
+{
+if(a>b)
+{
+printf("%d is the second largest among all",a);
+}
+else
+{
+printf("%d is the second largest among all",b);
+}
+}
+return0;
+}
