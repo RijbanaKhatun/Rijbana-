@@ -1,0 +1,43 @@
+#include<stdio.h>
+int main()
+{
+int a,b,c;
+
+printf("\nEnter the first number \n);
+scanf("%d"&a);
+
+printf("\nEnter the second number \n);
+scanf("%d"&b);
+
+printf("\nEnter the third number \n);
+scanf("%d"&c);
+
+/* to find largest */
+if(a>b && a>c)
+{
+printf("\n a=%d is largest",a);
+}
+else if(b>a && b>c)
+{
+printf("\n b=%d is largest",b);
+}
+else
+{
+print("\n c=%d is largest",c);
+}
+
+/* to find smallest */
+if(a<b && a<c)
+{
+printf("\n a=%d is smallest",a);
+}
+else if(b<a && b<c)
+{
+printf("\n b=%d is smallest",b);
+}
+else
+{
+print("\n c=%d is smallest",c);
+}
+return0;
+}
