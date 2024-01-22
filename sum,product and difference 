@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+    int a,b,s,m,d;
+    cout<<"Enter the first number:";
+    cin>>a;
+    cout<<"Enter the second number:";
+    cin>>b;
+    s=a+b;
+    m=a*b;
+    d=a-b;
+   cout<<"sum="<<s<<end1<<"product="<<m<<end1<<"difference="<<d<<end1;
+}
+
+  
